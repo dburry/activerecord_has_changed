@@ -1,6 +1,9 @@
 = activerecord_has_changed
 
-Description goes here.
+Activerecord's #atr_changed? is frustrating when it comes to nil values, so here's a replacement.
+Plus other slight shortcuts I guess... almost becoming a dsl... :P
+
+These are designed to be used in Activerecord observers, to shorten your code and make it more readable.
 
 == Contributing to activerecord_has_changed
  
@@ -10,10 +13,10 @@ Description goes here.
 * Start a feature/bugfix branch.
 * Commit and push until you are happy with your contribution.
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version,
+  or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 == Copyright
 
-Copyright (c) 2012 David Burry. See LICENSE.txt for
-further details.
+Copyright (c) 2012 David Burry.  Licenced under the MIT license.
 
